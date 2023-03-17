@@ -92,7 +92,7 @@ CVV.addEventListener("input", (e) => {
     Card_CVV.textContent = e.target.value
 })
 
-form = document.querySelector(".Card_info")
+form = document.querySelector(".Card_Info")
 
 form.addEventListener("reset", ()=>{
     front.style.backgroundImage = ''
